@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+
+            /* Medidas absolutas
+            mm, cm, in, px, pt, pc
+            - medida recomendada: px
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmete = 1em
+            - medida recomendada: em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /* shorthand font
+            - font: font-style -> font-weight -> font-size -> font-family;
+            
+            font-family: Arial;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em Arial, sans-serif;
+        }
+
+        h2 {
+            font: lighter 2em Arial;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <h2>Subtítulo exercício 1</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quo voluptas incidunt nobis dolorem corporis magni voluptatem maxime voluptatum natus ratione eaque ex quos? Praesentium inventore ea natus ut eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus hic nesciunt sit ea iste iusto natus consectetur ab officiis aspernatur veritatis, dolorum eligendi cupiditate assumenda dolor. Sapiente, possimus aliquam?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius sed consequatur dolore doloribus officia eaque. Sapiente, voluptatibus! Doloribus blanditiis quae fugiat odit laudantium quam enim rem modi impedit inventore?</p>
+
+    <h2>Subtítulo exercício 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus libero odio error voluptatum tempore eos a vero, ullam numquam est, nisi sit in totam nam optio, itaque impedit? Minus, quae.</p>
+</body>
+
+</html>
