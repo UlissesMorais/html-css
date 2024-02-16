@@ -70,12 +70,30 @@ section {
 .imagem {
     background-color: rgb(51, 51, 51);
     color: #fff;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem p {
-    background-color: rgba(0, 0, 0, 0.362);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     display: inline-block;  /* A caixa se ajusta a largura do texto */
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section > p{
+    padding-bottom: 1em;
+}
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 
